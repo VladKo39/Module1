@@ -12,4 +12,4 @@ time_on_task=q_ty_hour/q_ty_home_task
 print('Курс: '+training+
       ', всего задач: '+str(q_ty_home_task)+
       ', затрачено часов: '+str(q_ty_hour)+
-      ', среднее время выполнения: '+str(time_on_task))
+      ', среднее время выполнения: '+str(time_on_task)+' часа.')
