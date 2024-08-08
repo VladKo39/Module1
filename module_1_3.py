@@ -20,4 +20,4 @@ print('New age: ' + str(age))
 # - Создайте переменную is_student и присвойте ей значение True (логическое значение).
 is_student = True
 # - Выведите значение переменной is_student на экран.
-print('is_student: ' + str(is_student))
+print('Is Student: ' + str(is_student))
