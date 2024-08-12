@@ -25,4 +25,7 @@ average_mark = [sum(sublist)/len(sublist) for sublist in grades]
 # а средних значений балла из average_mark :
 stud_mark=dict(zip(students, average_mark))
 #Выводим значение на экран:
-print(stud_mark)
+print("Вывод Решения по-этапно: ", stud_mark)
+#или
+print("Вывод Решения одной строкой: ",
+      dict(zip(sorted(students), [sum(sublist)/len(sublist) for sublist in grades])))
